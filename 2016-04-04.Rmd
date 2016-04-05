@@ -38,7 +38,7 @@ $$V(\bar y_{sy}) = \frac{\sigma^2}{n}(1 + (n-1)\rho)$$
 
 where $\rho$ is the so-called "intra-cluster correlation coefficient". Back to this in a moment
 
-## basic $V(y_{sy})$ formula
+## basic $V(\bar y_{sy})$ formula
 
 It's easy to write down the correct (but not as useful) formula for the variance of $\bar y_{sy}$ from first principles.
 
@@ -81,7 +81,7 @@ Often called something like "*total SS* equals *between SS* plus with *within SS
 
 ## ANOVA continued { .build }
 
-Alert! We've seen $SSB$ already. In fact $V(\bar y_{sy}) = SSB\big/k$. 
+Alert! We've seen $SSB$ already. In fact $V(\bar y_{sy}) = SSB\big/(nk)$. **Corrected from class.**
 
 Alert! We've seen $SST$ already. In fact $\sigma^2 = SST\big/N = SST\big/(nk)$
 
